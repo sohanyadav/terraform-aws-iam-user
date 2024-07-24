@@ -1,6 +1,6 @@
-# Managed By : opsstation
+# Managed By : sohanyadav
 # Description : Terraform module to create IAM user resource on AWS.
-# Copyright @ opsstation. All Right Reserved.
+# Copyright @ sohanyadav. All Right Reserved.
 
 #Module      : label
 #Description : This terraform module is designed to generate consistent label names and tags
@@ -9,7 +9,7 @@
 
 
 module "labels" {
-  source = "git::https://github.com/opsstation/terraform-aws-labels.git?ref=v1.0.0"
+  source = "git::https://github.com/sohanyadav/terraform-aws-labels.git?ref=v1.0.0"
 
   name        = var.name
   environment = var.environment

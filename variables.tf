@@ -7,7 +7,7 @@ variable "name" {
 }
 variable "repository" {
   type        = string
-  default     = "https://github.com/opsstation/terraform-aws-iam-user"
+  default     = "https://github.com/sohanyadav/terraform-aws-iam-user"
   description = "Terraform current module repo"
 }
 
@@ -33,8 +33,8 @@ variable "attributes" {
 
 variable "managedby" {
   type        = string
-  default     = "hello@opsstation.com"
-  description = "ManagedBy, eg 'opsstation'"
+  default     = "example"
+  description = "ManagedBy, eg 'sohanyadav'"
 }
 
 # Module      : Iam Role
